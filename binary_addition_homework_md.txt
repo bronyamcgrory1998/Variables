@@ -1,0 +1,41 @@
+﻿#Binary Numbers and Addition Homework
+
+You should refer to the **homework policy** for details on how this homework should be submitted.
+
+**Attempt all questions**
+
+##Question 1
+Write down the **largest** binary number that can be held in **8-bits**. Work out what the denary equivalent is.
+
+(**2 marks**)
+
+##Question 2
+How many bits make:
+
+- one **byte** (**1 mark**)
+- one **kilobyte** (**1 mark**)
+- one **megabyte** (**1 mark**)
+
+(**3 marks**)
+
+##Question 3
+What are the possible values that **one bit** can take?
+
+(**1 mark**)
+
+##Question 4
+Convert the **denary** numbers **37** and **84** into binary. Be sure to **show your working**.
+
+(**4 marks**)
+
+##Question 5
+Add the **binary** numbers generated in the previous question together. Be sure to **show your working**.
+
+(**2 marks**)
+
+##Question 6
+Explain what is meant by **overflow error**. Provide an example to help with your explanation.
+
+(**3 marks**)
+
+**Total 14 marks**

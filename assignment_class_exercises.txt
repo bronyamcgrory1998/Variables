@@ -1,0 +1,124 @@
+﻿#Class Exercises - Assignment Statements
+These tasks are designed to help you practice the knowledge and skills you have developed. There are exercises to help you revise and develop your understanding and also to challenge you further.
+
+##Syntax
+You might find it useful to refer to these examples.
+
+````python
+print("hello world")
+#outputs the text string to the screen
+
+print("Your age is {0}".format(your_age))
+#outputs the text string to the screen followed by the value contained in the variable
+
+your_age = 5
+#assigns the value 5 to the variable
+
+input_age = int(input("Please enter your age: "))
+assigns the input from the keyboard to the variable and converts the value to an integer
+
+div_result = 7 // 3
+#divides 7 by 3 and saves the whole number part of the result (DIV)
+
+mod_result = 7 % 3
+#divides 7 by 3 and save the remainder of the result (MOD)
+
+int("5")
+#converts the string value "5" to an integer
+
+float("5.6")
+#converts the string value "5.6" to a decimal number
+
+str(my_int)
+#converts the value stored in my_int to a string
+````
+
+##Vocabulary
+You might find it useful to refer to definitions of these terms.
+
+|Term|Definition|
+|----|----------|
+|**variable**|a labelled location that can contain a value which can be referenced by the program at a later date.|
+|**assignment**|the process of storing a value in a particular variable.|
+|**data type**|the kind of information. e.g. string (text) or integer.|
+|**operator**|a symbol used to represent an arithmetic operation.|
+|**comment**|a line of text that explains a section of programming code. of the result (MOD).converts the string value ‘5’ to an integer.|
+
+##Initial Task - Improving a piece of code
+Sometimes you may need to improve code produced by other people. Their code may contain errors or have a poor style. It is important that you can interpret and revise the work of others. 
+
+###Task 1
+Open the python file called **````variable_improvement_exercise.py````** and **refactor** the code so that it uses a more appropriate variable names and correct any other errors in the code.
+
+```python3
+import math
+
+r = input("please enter the radius of the circle: ")
+
+c = 2* math.pi * r
+c = round(C,2)
+
+a = math.pi * R**2
+a = round(a,2)
+
+print("The circumference of this circle is {0}.".format(c))
+print("The area of this circle is {0}.".format(A))
+```
+
+##Class Exercises
+In this section you may choose the exercises you attempt. There are three types of exercises to consider:
+
+1. **Revision Exercises** - choose these exercises if you are not confident in your understanding of selection statements 
+2. **Development Exercises** - choose these exercises if you are confident in your understanding but want some more practice
+3. **Stretch and Challenge Exercises** - choose these exercises if you feel you have mastered selection and want to tackle some tougher problems
+
+Once you feel more confident attempt some of the more difficult exercises. The more practice you get now the more comfortable you will be using selection in more complex programs later in the course.
+
+Remember, practice makes perfect!
+
+###Attempting These Exercises
+You should do the following for each exercise you attempt:
+
+1. Create **flowcharts** first - plan your solution on paper before attempting it
+2. Create a set of **test data** - select values you will enter to test the program and know beforehand what you expect the answers to be
+3. Write the **program** - write the program in Python using the pseudocode to assist you and the test data to ensure the program functions correctly
+
+##Revision Exercises
+Attempt these tasks if you need to build your confidence and understanding of selection statements.
+
+1. Write a program that will ask the user for four integer numbers and then add these numbers together before displaying the answer. The input and output should be user friendly.
+2. Write a program that will ask the user for three integer numbers and then multiply the first two together before dividing the result by the third number. The input and output should be user friendly.
+3. Write a program that will ask the user for two numbers a then divide one by the other. The number of times one goes into another and the remainder should be displayed. For example, If 3 and 2 were entered: 3/2 = 1 remainder 1. The input and output should be user friendly. 
+4. Improve the previous program to show only the integer part of the answer.
+5. Both a fridge and a lift have heights, widths and depths. Work out how much space is left in the lift once the fridge is inside. Assume that the fridge dimensions will fit. The input and output should be user
+
+##Development Exercises
+Attempt these tasks if you are confident in your understanding but feel you need more practice.
+
+1. X DIV Y calculates how many times y divides into x, for example 7 DIV 3 is 2. X MOD Y calculates the remainder that results after division, for example 7 MOD 3 is 1. 
+
+    Write a program that will read in two integers Number1 and Number2. Using DIV and MOD, your program should display the whole number part and the remainder of dividing Number 1 by Number 2.
+
+2. Write a program to enter a temperature in degrees Fahrenheit and display the equivalent temperature in degrees Centigrade. 
+
+    The formula for conversion is Centigrade = (Fahrenheit - 32) * (5/9).
+
+3. Write a program to convert a person’s height in inches into centimetres and their weight in stones into kilograms. 
+
+     inch - 2.54 cm and 1 stone - 6.364 kg.
+
+4. Write a program to enter the length, width and depth at the deepest and shallowest ends of a rectangular swimming pool. 
+
+    Calculate the volume of water required to fill the pool, and display this volume.
+
+##Stretch and Challenge Exercises
+Attempt these tasks if you feel you have mastered selection and want to tackle tougher problems.
+
+1. Write a program to enter the length and width of a rectangular-shaped garden. Calculate the area of the garden and the cost of turfing a lawn if a 1m border is around the perimeter of the garden.
+
+    Assume the cost of turf is £10 per square metre. Display the result of these calculations.
+
+2. Attempt the [Python School Additional Exercises](http://www.pythonschool.net/dayoneadditionalexercises/) involving the **Math** unit.
+3. Attempt the [Python School Additional Exercises](http://www.pythonschool.net/dayoneadditionalexercises/) involving **strings**.
+
+
